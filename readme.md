@@ -38,3 +38,5 @@ MIB vs mb
 q3)
 ls -l diffrence in ubuntu & centos
 
+q4) why we have many kernels in /boot
+
