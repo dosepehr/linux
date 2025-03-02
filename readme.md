@@ -37,6 +37,9 @@ MIB vs mb
 
 q3)
 ls -l diffrence in ubuntu & centos
+DAC vs MAC
+
+less command  loads file data in RAM
 
 q4) why we have many kernels in /boot
 
