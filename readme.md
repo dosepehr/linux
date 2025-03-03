@@ -43,3 +43,17 @@ less command  loads file data in RAM
 
 q4) why we have many kernels in /boot
 
+PATA
+pararell ATA
+for data transfer
+master slave
+noises
+slow
+
+SATA
+faster that PATA
+
+MBR
+patitioning hards up to 2TB
+
+q5) see first sector on linux
