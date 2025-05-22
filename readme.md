@@ -11,16 +11,14 @@ app => stallman
 [image 2]
 shell => app that we use it to command kernel using terminal
 
-hard extentions
-vdi => oracle
-vhd => microsoft
-vmdk => vmware
 
-q0)
+
 terminal vs shell
-q1)
-virtual size & actual size
-20GB - 2 MB
+Terminal is a user interface that allows us to communicate with the operating system.
+
+Shell is a command interpreter that executes the commands we type.
+
+The shell runs inside the terminal.
 
 mounting
 
@@ -34,17 +32,17 @@ boot on / is only a pointer to /boot partion
 
 /swap
 when ram was full,it process on the hard
-q2)
 
 MIB vs mb
+MB is decimal
+miB is binary
 
-q3)
 ls -l diffrence in ubuntu & centos
+drwxr-xr-x. => ACL => SELinux
 DAC vs MAC
 
 less command  loads file data in RAM
 
-q4) why we have many kernels in /boot
 
 PATA
 pararell ATA
