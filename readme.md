@@ -44,17 +44,9 @@ DAC vs MAC
 less command  loads file data in RAM
 
 
-PATA
-pararell ATA
-for data transfer
-master slave
-noises
-slow
+*) seeing aa5 5validating check
 
-SATA
-faster that PATA
-
-MBR
+MBR (master boot record)
 patitioning hards up to 2TB
 
 q5) see first sector on linux
@@ -64,8 +56,7 @@ more volume than MBR
 more partitions than MBR
 content of first sector is stored in multiple places
 
-q6) uefi vs bios
-
+q6) uefi(GPT) vs bios(MBR)
 
 old hards (PATA) => hd
 new hards (SATA) => sd
@@ -75,5 +66,3 @@ logical partitions => start from 5
 sda1 => primary
 sda2 => extended
 sda5 => logical
-
-/dev => every detected device 
