@@ -44,7 +44,7 @@ DAC vs MAC
 less command  loads file data in RAM
 
 
-*) seeing aa5 5validating check
+*) seeing aa55 validating check
 
 MBR (master boot record)
 patitioning hards up to 2TB
@@ -66,3 +66,14 @@ logical partitions => start from 5
 sda1 => primary
 sda2 => extended
 sda5 => logical
+
+
+File systems
+
+Ext2 => problem in copy-pasting when data center power is gone
+Ex3 => introduced journaling for Ext2 problem, limited size of 2T
+Ex4
+ReiserFS => many files with small sizes,good for data bases
+btrfs => performance ✅
+
+q7) what is SMP in uname -a output
